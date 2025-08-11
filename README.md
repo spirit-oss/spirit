@@ -27,19 +27,46 @@ This repo is your entry point to the **entire project** — from hardware design
 
 ---
 
-## Quick Links
+## Project Repositories
 
-| Topic | Link |
-|-------|------|
-| Hardware Design Files | [SPIRIT Hardware Repo](https://github.com/your-hardware-repo) |
-| Technical Specs | [Specs Sheet](docs/specifications.md) |
-| Software Builds | [OS Development](docs/software.md) |
-| DIY Build Guide | [Assembly Instructions](docs/diy-build.md) |
-| Ethics & Sustainability | [Ethics Overview](docs/ethics.md) |
+SPIRIT is organized into specialized repositories for different aspects of the project. Choose the one that matches your interests:
+
+### Want to Contribute to Hardware?
+**Repository:** [spirit-design](../spirit-design)  
+**Perfect for:** Hardware engineers, PCB designers, mechanical engineers, and repair enthusiasts  
+**Contains:** KiCad schematics, PCB layouts, Bill of Materials, 3D models, mechanical drawings
+
+### Want to Develop Software?
+**Repository:** [spirit-os](../spirit-os)  
+**Perfect for:** Android developers, ROM builders, kernel developers, and software enthusiasts  
+**Contains:** AOSP device configuration, drivers, system customizations for Raspberry Pi 5
+
+### Need Documentation or Want to Learn More?
+**Repository:** [spirit-docs](../spirit-docs)  
+**Perfect for:** New users, technical writers, and anyone wanting comprehensive guides  
+**Contains:** Assembly guides, specifications, troubleshooting, user manuals, development docs
+
+### Want to See the Big Picture?
+**Repository:** spirit (this repository)  
+**Perfect for:** Project overview, general discussions, and coordination between teams  
+**Contains:** Project roadmap, general information, and links to specialized repositories
 
 ---
 
-## 🖥Project Overview
+## Quick Navigation by Interest
+
+| I want to... | Go to Repository | Key Resources |
+|--------------|------------------|---------------|
+| **Build my own SPIRIT phone** | [spirit-docs](../spirit-docs) → [Assembly Guide](../spirit-docs/hardware/assembly-guide.md) | Complete build instructions, BOM, troubleshooting |
+| **Modify the hardware design** | [spirit-design](../spirit-design) | KiCad files, schematics, PCB layouts |
+| **Customize the Android OS** | [spirit-os](../spirit-os) | AOSP build system, device trees, drivers |
+| **Understand the technical specs** | [spirit-docs](../spirit-docs) → [Specifications](../spirit-docs/hardware/specifications.md) | Detailed hardware and software specifications |
+| **Join the community** | [spirit-docs](../spirit-docs) → [Community](../spirit-docs/community/) | Discord, support channels, events |
+| **Contribute code or designs** | See contributing guides in each repo | [Hardware](../spirit-design), [Software](../spirit-os), [Docs](../spirit-docs) |
+
+---
+
+## Project Overview
 
 SPIRIT breaks away from locked-down devices by:
 
@@ -60,6 +87,46 @@ Current development is documented here and on our
 - **Display:** 5.5" TFT, 720×1280 resolution  
 - **Connectivity:** Wi-Fi, Bluetooth 5, GSM, GPS/GNSS  
 - **Privacy Switches:** Mic, GPS/GSM, Camera, Battery  
+
+---
+
+## Current Development Status
+
+**SPIRIT is actively in development.** Here's what's working and what's coming:
+
+| Component | Status | Notes |
+|-----------|:------:|-------|
+| **Hardware PCB** | 🚧 | Prototype assembled, testing in progress |
+| **Android OS** | 🚧 | AOSP 16 boots, core features working |
+| **Privacy Switches** | ✅ | Hardware design complete |
+| **Display & Touch** | ✅ | Fully functional |
+| **Wi-Fi & Bluetooth** | ✅ | Working in software |
+| **Camera** | 🚧 | Hardware ready, software integration ongoing |
+| **Cellular (4G/5G)** | 🚧 | Basic functionality, optimization needed |
+| **GPS** | ❌ | Driver development required |
+
+✅ = Complete | 🚧 = In Progress | ❌ = Not Started
+
+**Want to help?** Check the issues in each repository or join our [Discord](https://discord.gg/zBG4KdHJWx) to see what needs attention!
+
+---
+
+## Getting Started
+
+### New to SPIRIT?
+1. **Learn about the project** → Read [Project Overview](../spirit-docs/getting-started/project-overview.md)
+2. **See what's possible** → Watch [V Electronics YouTube](https://www.youtube.com/@V_Electronics)
+3. **Join the community** → [Discord Server](https://discord.gg/zBG4KdHJWx)
+
+### Ready to Build?
+1. **Check requirements** → [spirit-docs](../spirit-docs) Hardware Assembly Guide
+2. **Get the parts** → Bill of Materials in [spirit-design](../spirit-design)
+3. **Follow the build guide** → Step-by-step instructions in documentation
+
+### Want to Contribute?
+1. **Pick your area** → Use the repository guide above
+2. **Read contribution guidelines** → Each repo has its own CONTRIBUTING.md
+3. **Start small** → Look for "good first issue" labels
 
 ---
 

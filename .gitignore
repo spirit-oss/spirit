@@ -1,0 +1,42 @@
+# Temporary files
+*.000
+*.bak
+*.bck
+*.lck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_prl
+*.sch-bak
+*~
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+
+# Backups and other zip archives
+*.zip
+
+# Netlist files (exported from Eeschema)
+*.net
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+# Footprint association file (exported from Pcbnew)
+*.cmp
+
+# Exported BOM files
+*.xml
+*.csv
+
+# Cache and build directories
+fp-info-cache
+build/
+
+# OS files
+.DS_Store
+
+# Python env
+EDA-kicad/component-libs/env

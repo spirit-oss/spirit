@@ -15,6 +15,9 @@
 
 **SPIRIT** is an open-source smartphone designed to put control, privacy, and repairability back into the hands of users. This repository is the central hub for the entire project, guiding you to the right place whether you want to build, contribute, or just learn more.
 
+<img width="395" height="830" alt="10" src="https://github.com/user-attachments/assets/e4e0d53c-7bdd-40ba-9253-1769cd985b53" />
+
+
 ## Table of Contents
 - [Join the Community](#join-the-community)
 - [How the Project is Organized](#how-the-project-is-organized)
